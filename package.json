@@ -1,0 +1,27 @@
+{
+  "name": "agora-whiteboard-sdk",
+  "version": "1.0.4",
+  "description": "A Whiteboard SDK for Agora.io made completely from scratch using RTM.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshatvg/Agora-Whiteboard-SDK.git"
+  },
+  "keywords": [
+    "agora",
+    "whiteboard-sdk",
+    "rtm",
+    "rte",
+    "rtc",
+    "web"
+  ],
+  "author": "Akshat Gupta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akshatvg/Agora-Whiteboard-SDK/issues"
+  },
+  "homepage": "https://whiteboard.akshatvg.com"
+}

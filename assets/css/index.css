@@ -1,0 +1,109 @@
+/* Outer Div For Canvas  */
+#outer-div {
+    margin: 0;
+    overflow: hidden;
+    z-index: 1;
+    border: 2px solid #1A0274;
+    height: 88vh;
+    width: 100%;
+}
+
+/* Padding */
+.p-20 {
+    padding: 20px;
+}
+
+/* Canvas Background */
+#whiteboard-canvas {
+    background-color: white;
+}
+
+/* Canvas Cursor */
+#whiteboard-canvas:active,
+#whiteboard-canvas:focus {
+    cursor: crosshair;
+}
+
+/* Tools */
+#tools {
+    z-index: 10;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    left: 30px;
+    margin-top: 30px;
+    background: #1A0274;
+}
+
+/* Font Size Big */
+.font-size-big{
+    font-size: 23px;
+    margin-left: 10px;
+}
+
+/* Tool Buttons */
+.clearBtn,
+.colorBtn,
+.eraserBtn {
+    background-color: #0C9DFD;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.clearBtn:hover,
+.clearBtn:focus,
+.colorBtn:hover,
+.colorBtn:focus,
+.eraserBtn:hover,
+.eraserBtn:focus {
+    background-color: rgb(2, 133, 221);
+}
+
+/* Margin Y-Axis */
+.my-2 {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+/* Displays */
+.d-none {
+    display: none;
+}
+
+/* Label Focus Color */
+#channelNameInput:focus+label,
+#accountName:focus+label,
+#channelMsg:focus+label {
+    color: #0C9DFD;
+}
+
+/* Label Underline Focus Color */
+#channelNameInput:focus,
+#accountName:focus,
+#channelMsg:focus {
+    border-bottom: 1px solid #0C9DFD;
+    box-shadow: 0 1px 0 0 #0C9DFD;
+}
+
+/* Channel Join Button */
+#joinChannelBtn,
+#sendMsgBtn {
+    background-color: #0C9DFD;
+    color: white;
+    border-radius: 5px;
+}
+
+#joinChannelBtn:hover,
+#sendMsgBtn:hover {
+    background-color: rgb(2, 133, 221);
+}
+
+/* Navbar */
+#navbar {
+    background: #1A0274;
+}
+
+.brand-logo {
+    margin-left: 10px;
+}
